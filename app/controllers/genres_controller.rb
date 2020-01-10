@@ -29,7 +29,7 @@ class GenresController < ApplicationController
 
     private
 
-    def aritist_params
+    def genre_params
         params.require(:genre).permit(:name)
     end
 end
